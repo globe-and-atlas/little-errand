@@ -1,0 +1,33 @@
+[
+  {"type":"heading","defaultValue":"Little Errand"},
+  {"type":"text","defaultValue":"Choose a location or let the courier travel every four hours. Weather still changes the sky."},
+  {"type":"section","items":[
+    {"type":"heading","defaultValue":"Appearance"},
+    {"type":"select","messageKey":"SETTING_PALETTE","label":"Colors","defaultValue":"0","options":[
+      {"label":"Storybook day","value":"0"},
+      {"label":"Twilight violet","value":"1"},
+      {"label":"Mint village","value":"2"}
+    ]},
+    {"type":"select","messageKey":"SETTING_FONT","label":"Clock font","defaultValue":"0","options":[
+      {"label":"Large bold","value":"0"},
+      {"label":"Large light","value":"1"}
+    ]},
+    {"type":"select","messageKey":"SETTING_LOCATION","label":"Location","defaultValue":"0","options":[
+      {"label":"Village","value":"0"},
+      {"label":"City","value":"1"},
+      {"label":"Farm","value":"2"},
+      {"label":"Countryside","value":"3"},
+      {"label":"Coast","value":"4"},
+      {"label":"Forest","value":"5"},
+      {"label":"Mountains","value":"6"},
+      {"label":"Travel through locations","value":"7"}
+    ]},
+    {"type":"select","messageKey":"SETTING_DATE","label":"Date","defaultValue":"0","options":[
+      {"label":"Off","value":"0"},
+      {"label":"YYYY-MM-DD","value":"1"},
+      {"label":"MM/DD/YYYY","value":"2"},
+      {"label":"DD/MM/YYYY","value":"3"}
+    ]}
+  ]},
+  {"type":"submit","defaultValue":"Save to watch"}
+]

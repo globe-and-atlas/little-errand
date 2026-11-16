@@ -1,0 +1,38 @@
+{
+  "name": "little-errand",
+  "author": "Daniel Bally",
+  "version": "0.3.1",
+  "private": true,
+  "keywords": [
+    "pebble-app"
+  ],
+  "pebble": {
+    "displayName": "Little Errand",
+    "uuid": "08d7a2b4-b1f3-4b28-99f5-356967868a08",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "emery"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "capabilities": [
+      "location",
+      "configurable"
+    ],
+    "messageKeys": [
+      "WEATHER",
+      "SETTING_PALETTE",
+      "SETTING_FONT",
+      "SETTING_LOCATION",
+      "SETTING_DATE"
+    ],
+    "resources": {
+      "media": []
+    }
+  },
+  "dependencies": {
+    "@rebble/clay": "1.1.0"
+  }
+}

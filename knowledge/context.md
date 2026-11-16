@@ -1,20 +1,23 @@
 # Project Context
 
 ## Identity
-
-- Name: `little-errand`
-- Profile: `workflow-python`
-- Deploy: `local-only`
-- Runtime: `pebble`
+- Name: Little Errand
+- Profile: `workflow-python` scaffold adapted to Pebble C and PebbleKit JS
+- Deploy: local-only
+- Runtime: Pebble SDK 4.33.1, Emery target
 
 ## Purpose
+Little Errand is an original pixel-style courier walking across a small town as the minute changes.
 
-Describe who this project serves and what use, purpose, or beauty it should deliver.
+## Domain
+Pebble local time drives the traveler. Phone location and Open-Meteo weather code select clear, cloud, rain, or snow scenery.
 
 ## Constraints
-
-- Add real constraints here
+- Screen is 200×228 pixels.
+- The clock and traveler work offline; weather scenery expires after one hour.
+- Generated PBWs and screenshots are not release evidence.
 
 ## Out of Scope
-
-- Add out-of-scope boundaries here
+- Other Pebble display geometries
+- Store publication
+- Physical watch acceptance
